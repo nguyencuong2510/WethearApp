@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C451D431FE604E300015DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D421FE604E300015DDF /* AppDelegate.swift */; };
+		5C451D451FE604E300015DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D441FE604E300015DDF /* ViewController.swift */; };
+		5C451D481FE604E300015DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C451D461FE604E300015DDF /* Main.storyboard */; };
+		5C451D4B1FE604E300015DDF /* WethearApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D491FE604E300015DDF /* WethearApp.xcdatamodeld */; };
+		5C451D4D1FE604E300015DDF /* background.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C451D4C1FE604E300015DDF /* background.xcassets */; };
+		5C451D501FE604E300015DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C451D4E1FE604E300015DDF /* LaunchScreen.storyboard */; };
+		5C451D5B1FE604E300015DDF /* WethearAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D5A1FE604E300015DDF /* WethearAppTests.swift */; };
+		5C451D661FE6050300015DDF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D651FE6050300015DDF /* Model.swift */; };
+		5C451D691FE6052C00015DDF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D681FE6052C00015DDF /* DataService.swift */; };
+		5C451D6C1FE62BD200015DDF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D6B1FE62BD200015DDF /* TableViewController.swift */; };
+		5C451D6E1FE62CED00015DDF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D6D1FE62CED00015DDF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C451D571FE604E300015DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C451D371FE604E300015DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C451D3E1FE604E300015DDF;
+			remoteInfo = WethearApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C451D3F1FE604E300015DDF /* WethearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WethearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C451D421FE604E300015DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C451D441FE604E300015DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C451D471FE604E300015DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C451D4A1FE604E300015DDF /* WethearApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WethearApp.xcdatamodel; sourceTree = "<group>"; };
+		5C451D4C1FE604E300015DDF /* background.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = background.xcassets; sourceTree = "<group>"; };
+		5C451D4F1FE604E300015DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C451D511FE604E300015DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C451D561FE604E300015DDF /* WethearAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WethearAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C451D5A1FE604E300015DDF /* WethearAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WethearAppTests.swift; sourceTree = "<group>"; };
+		5C451D5C1FE604E300015DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C451D651FE6050300015DDF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C451D681FE6052C00015DDF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5C451D6B1FE62BD200015DDF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5C451D6D1FE62CED00015DDF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C451D3C1FE604E300015DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C451D531FE604E300015DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C451D361FE604E300015DDF = {
+			isa = PBXGroup;
+			children = (
+				5C451D411FE604E300015DDF /* WethearApp */,
+				5C451D591FE604E300015DDF /* WethearAppTests */,
+				5C451D401FE604E300015DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C451D401FE604E300015DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C451D3F1FE604E300015DDF /* WethearApp.app */,
+				5C451D561FE604E300015DDF /* WethearAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C451D411FE604E300015DDF /* WethearApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C451D421FE604E300015DDF /* AppDelegate.swift */,
+				5C451D671FE6050D00015DDF /* Model */,
+				5C451D6A1FE62BBC00015DDF /* ViewController */,
+				5C451D461FE604E300015DDF /* Main.storyboard */,
+				5C451D4C1FE604E300015DDF /* background.xcassets */,
+				5C451D4E1FE604E300015DDF /* LaunchScreen.storyboard */,
+				5C451D511FE604E300015DDF /* Info.plist */,
+				5C451D491FE604E300015DDF /* WethearApp.xcdatamodeld */,
+			);
+			path = WethearApp;
+			sourceTree = "<group>";
+		};
+		5C451D591FE604E300015DDF /* WethearAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C451D5A1FE604E300015DDF /* WethearAppTests.swift */,
+				5C451D5C1FE604E300015DDF /* Info.plist */,
+			);
+			path = WethearAppTests;
+			sourceTree = "<group>";
+		};
+		5C451D671FE6050D00015DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C451D651FE6050300015DDF /* Model.swift */,
+				5C451D681FE6052C00015DDF /* DataService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C451D6A1FE62BBC00015DDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C451D441FE604E300015DDF /* ViewController.swift */,
+				5C451D6B1FE62BD200015DDF /* TableViewController.swift */,
+				5C451D6D1FE62CED00015DDF /* TableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C451D3E1FE604E300015DDF /* WethearApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C451D5F1FE604E300015DDF /* Build configuration list for PBXNativeTarget "WethearApp" */;
+			buildPhases = (
+				5C451D3B1FE604E300015DDF /* Sources */,
+				5C451D3C1FE604E300015DDF /* Frameworks */,
+				5C451D3D1FE604E300015DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WethearApp;
+			productName = WethearApp;
+			productReference = 5C451D3F1FE604E300015DDF /* WethearApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C451D551FE604E300015DDF /* WethearAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C451D621FE604E300015DDF /* Build configuration list for PBXNativeTarget "WethearAppTests" */;
+			buildPhases = (
+				5C451D521FE604E300015DDF /* Sources */,
+				5C451D531FE604E300015DDF /* Frameworks */,
+				5C451D541FE604E300015DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C451D581FE604E300015DDF /* PBXTargetDependency */,
+			);
+			name = WethearAppTests;
+			productName = WethearAppTests;
+			productReference = 5C451D561FE604E300015DDF /* WethearAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C451D371FE604E300015DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = nguyencuong;
+				TargetAttributes = {
+					5C451D3E1FE604E300015DDF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5C451D551FE604E300015DDF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C451D3E1FE604E300015DDF;
+					};
+				};
+			};
+			buildConfigurationList = 5C451D3A1FE604E300015DDF /* Build configuration list for PBXProject "WethearApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C451D361FE604E300015DDF;
+			productRefGroup = 5C451D401FE604E300015DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C451D3E1FE604E300015DDF /* WethearApp */,
+				5C451D551FE604E300015DDF /* WethearAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C451D3D1FE604E300015DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C451D501FE604E300015DDF /* LaunchScreen.storyboard in Resources */,
+				5C451D4D1FE604E300015DDF /* background.xcassets in Resources */,
+				5C451D481FE604E300015DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C451D541FE604E300015DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C451D3B1FE604E300015DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C451D451FE604E300015DDF /* ViewController.swift in Sources */,
+				5C451D6C1FE62BD200015DDF /* TableViewController.swift in Sources */,
+				5C451D431FE604E300015DDF /* AppDelegate.swift in Sources */,
+				5C451D4B1FE604E300015DDF /* WethearApp.xcdatamodeld in Sources */,
+				5C451D661FE6050300015DDF /* Model.swift in Sources */,
+				5C451D6E1FE62CED00015DDF /* TableViewCell.swift in Sources */,
+				5C451D691FE6052C00015DDF /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C451D521FE604E300015DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C451D5B1FE604E300015DDF /* WethearAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C451D581FE604E300015DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C451D3E1FE604E300015DDF /* WethearApp */;
+			targetProxy = 5C451D571FE604E300015DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C451D461FE604E300015DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C451D471FE604E300015DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C451D4E1FE604E300015DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C451D4F1FE604E300015DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C451D5D1FE604E300015DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C451D5E1FE604E300015DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C451D601FE604E300015DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WethearApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.WethearApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C451D611FE604E300015DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WethearApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.WethearApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C451D631FE604E300015DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WethearAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.WethearAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WethearApp.app/WethearApp";
+			};
+			name = Debug;
+		};
+		5C451D641FE604E300015DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WethearAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.WethearAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WethearApp.app/WethearApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C451D3A1FE604E300015DDF /* Build configuration list for PBXProject "WethearApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C451D5D1FE604E300015DDF /* Debug */,
+				5C451D5E1FE604E300015DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C451D5F1FE604E300015DDF /* Build configuration list for PBXNativeTarget "WethearApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C451D601FE604E300015DDF /* Debug */,
+				5C451D611FE604E300015DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C451D621FE604E300015DDF /* Build configuration list for PBXNativeTarget "WethearAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C451D631FE604E300015DDF /* Debug */,
+				5C451D641FE604E300015DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C451D491FE604E300015DDF /* WethearApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C451D4A1FE604E300015DDF /* WethearApp.xcdatamodel */,
+			);
+			currentVersion = 5C451D4A1FE604E300015DDF /* WethearApp.xcdatamodel */;
+			path = WethearApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C451D371FE604E300015DDF /* Project object */;
+}
