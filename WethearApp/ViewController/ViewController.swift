@@ -33,7 +33,23 @@ class ViewController: UIViewController {
         self.maxtem_c.text = "\(weather.forecastday[0].maxtemp_c)"
         self.mintemp_c.text = "\(weather.forecastday[0].mintemp_c)"
     }
-
-
 }
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let firstCell = tableView.dequeueReusableCell(withIdentifier: "tableCellCollectionVC", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        
+        
+        return cell
+    }
+    
+    
+}
+
 
