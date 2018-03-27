@@ -16,7 +16,6 @@
 		5C451D5B1FE604E300015DDF /* WethearAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D5A1FE604E300015DDF /* WethearAppTests.swift */; };
 		5C451D661FE6050300015DDF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D651FE6050300015DDF /* Model.swift */; };
 		5C451D691FE6052C00015DDF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D681FE6052C00015DDF /* DataService.swift */; };
-		5C451D6C1FE62BD200015DDF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D6B1FE62BD200015DDF /* TableViewController.swift */; };
 		5C451D6E1FE62CED00015DDF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C451D6D1FE62CED00015DDF /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		5C451D5C1FE604E300015DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C451D651FE6050300015DDF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5C451D681FE6052C00015DDF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		5C451D6B1FE62BD200015DDF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5C451D6D1FE62CED00015DDF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				5C451D441FE604E300015DDF /* ViewController.swift */,
-				5C451D6B1FE62BD200015DDF /* TableViewController.swift */,
 				5C451D6D1FE62CED00015DDF /* TableViewCell.swift */,
 			);
 			path = ViewController;
@@ -231,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C451D451FE604E300015DDF /* ViewController.swift in Sources */,
-				5C451D6C1FE62BD200015DDF /* TableViewController.swift in Sources */,
 				5C451D431FE604E300015DDF /* AppDelegate.swift in Sources */,
 				5C451D4B1FE604E300015DDF /* WethearApp.xcdatamodeld in Sources */,
 				5C451D661FE6050300015DDF /* Model.swift in Sources */,

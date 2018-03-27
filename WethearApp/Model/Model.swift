@@ -57,7 +57,6 @@ class Forecastday {
     var mintemp_c: Double
     var avghumidity: Double
     var icon: String
-    var hours: [Hour] = []
     
     init?(forecastdays: JSON) {
         guard let date = forecastdays["date"] as? String,
@@ -67,15 +66,8 @@ class Forecastday {
             let maxtemp_c = day["maxtemp_c"] as? Double,
             let mintemp_c = day["mintemp_c"] as? Double,
             let avghumidity = day["avghumidity"] as? Double,
-            let icon = condition["icon"] as? String,
-            let hour = forecastdays["hour"] as? [JSON]
-        else { return nil }
-        
-        for ahour in hour {
-            if let ab = Hour(hour: ahour) {
-                self.hours.append(ab)
-            }
-        }
+            let icon = condition["icon"] as? String
+            else { return nil }
         
         self.date = date
         self.maxtemp_c = maxtemp_c
@@ -86,31 +78,6 @@ class Forecastday {
     
 }
 
-class Hour {
-    var time: String
-    var temp_c: Double
-    var icon: String
-    var code: Double
-    var humidity: Double
-    
-    init?(hour: JSON) {
-        guard let time = hour["time"] as? String,
-            let temp_c = hour["temp_c"] as? Double,
-            let condition = hour["condition"] as? JSON,
-            let humidity = hour["humidity"] as? Double,
-        
-            let icon = condition["icon"] as? String,
-            let code = condition["code"] as? Double
-            else { return nil }
-        self.time = time
-        self.temp_c = temp_c
-        self.humidity = humidity
-        self.icon = icon
-        self.code = code
-    }
-    
-    
-}
 
 
 
